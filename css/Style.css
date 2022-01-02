@@ -1,6 +1,4 @@
-
 @import url('../css/fonts.css');
-
 
 html, body{
     margin: 0%;
@@ -9,7 +7,6 @@ html, body{
 }
 
 :root{
-
     /*      Theme colors        */
     --text-gray: #3f4954;
     --text-light : #686666da;
