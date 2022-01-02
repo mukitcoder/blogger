@@ -18,12 +18,14 @@ $(document).ready(function () {
     $nav = $('.nav');
     $toggleCollapse = $('.toggle-collapse');
 
-    /** click event on toggle menu */
+    /* click event on toggle menu */
+
     $toggleCollapse.click(function () {
         $nav.toggleClass('collapse');
     })
 
-    // owl-crousel for blog
+    // owl-carousel for blog
+
     $('.owl-carousel').owlCarousel({
         loop: true,
         autoplay: false,
@@ -34,8 +36,8 @@ $(document).ready(function () {
         responsive: responsive
     });
 
-
     // click to scroll top
+
     $('.move-up span').click(function () {
         $('html, body').animate({
             scrollTop: 0
@@ -43,8 +45,7 @@ $(document).ready(function () {
     })
 
     // AOS Instance
+
     AOS.init();
 
 });
-
-// new-----
